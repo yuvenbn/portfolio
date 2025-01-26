@@ -1,0 +1,32 @@
+.App{
+  background: var(--white-color);
+  /* transition: background-color 0.7s ease, color 0.5s ease */
+}
+
+/* -------------------------------------------------
+Theme toggle button style
+------------------------------------------------- */
+.toggler{
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 4px;
+}
+
+.toggler i {
+  font-size: 15px;
+  color: #fff ;
+}
+
+/* ------------------------------------
+Intro Image
+------------------------------------ */
+.intro-image{
+  border-radius: 75px;
+}
